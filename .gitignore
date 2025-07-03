@@ -1,5 +1,110 @@
-# Object file
-*.o
+# Environment files
+.env
+.env.local
+.env.*.local
 
-# Ada Library Information
-*.ali
+# Composer
+/vendor/
+composer.lock
+
+# Logs
+*.log
+/logs/
+
+# Uploaded files
+/uploads/prescriptions/*
+!/uploads/prescriptions/.gitkeep
+
+# Cache
+/cache/
+/tmp/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PHPUnit
+/coverage/
+.phpunit.result.cache
+
+# Node modules (if using any frontend build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build files
+/dist/
+/build/
+
+# Database
+*.sqlite
+*.db
+
+# Backup files
+*.backup
+*.bak
+*.tmp
+
+# System files
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# PHPStorm
+.idea/
+
+# VSCode
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
